@@ -9,7 +9,7 @@ class ArcaneTest {
     void testDefaultConstructor() {
         Arcane arcane = new Arcane();
         assertEquals("arcane", arcane.getType());
-        assertEquals(0, arcane.getPuissance());
+        assertEquals(1, arcane.getPuissance());
     }
 
     @Test

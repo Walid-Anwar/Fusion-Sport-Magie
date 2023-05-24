@@ -8,7 +8,7 @@ class FeuTest {
     void testDefaultConstructor() {
         Feu feu = new Feu();
         assertEquals("feu", feu.getType());
-        assertEquals(0, feu.getPuissance());
+        assertEquals(1, feu.getPuissance());
     }
 
     @Test

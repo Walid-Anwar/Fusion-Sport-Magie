@@ -8,7 +8,7 @@ class GivreTest {
     void testDefaultConstructor() {
         Givre givre = new Givre();
         assertEquals("givre", givre.getType());
-        assertEquals(0, givre.getPuissance());
+        assertEquals(1, givre.getPuissance());
     }
 
     @Test

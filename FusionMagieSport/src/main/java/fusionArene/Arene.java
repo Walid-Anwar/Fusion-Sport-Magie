@@ -25,7 +25,6 @@ public class Arene {
         instance.vie2 = 150;
     }
 
-
     public int getVie1(){
         return instance.vie1;
     }

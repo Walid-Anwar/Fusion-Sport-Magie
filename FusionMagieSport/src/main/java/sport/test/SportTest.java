@@ -8,16 +8,16 @@ class SportTest {
     void testDefaultConstructor() {
         Sport sport = new Sport();
         assertEquals("nomSport", sport.getNomSport());
-        assertEquals(0, sport.getTechnicite());
-        assertEquals(0, sport.getEnthousiasme());
+        assertEquals(1, sport.getTechnicite());
+        assertEquals(1, sport.getEnthousiasme());
     }
 
     @Test
     void testConstructorWithParam() {
         Sport sport = new Sport("Football");
         assertEquals("Football", sport.getNomSport());
-        assertEquals(0, sport.getTechnicite());
-        assertEquals(0, sport.getEnthousiasme());
+        assertEquals(1, sport.getTechnicite());
+        assertEquals(1, sport.getEnthousiasme());
     }
 
     @Test
