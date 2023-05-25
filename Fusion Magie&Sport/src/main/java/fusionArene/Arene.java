@@ -1,6 +1,7 @@
 package fusionArene;
 import magie.main.Sorcier;
 
+
 public class Arene {
     private static Arene instance;
     private Sorcier sorcier1;

@@ -14,3 +14,4 @@ Feature: Pouvoirs magiques des sorciers
     And Il y a un sorcier nommé "Doe" de race "humain" avec une puissance de 8
     Then Les sorciers ont la puissance configurée correctement
     And Les sorciers ont la race correctement instanciée
+
