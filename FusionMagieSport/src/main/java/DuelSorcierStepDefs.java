@@ -50,7 +50,7 @@ public class DuelSorcierStepDefs {
     }
     @When("Les sorciers entrent dans l'arène")
     public void les_sorciers_entrent_dans_l_arène() {
-        // Write code here that turns the phrase above into concrete actions
+        // Les sorciers entrent dans l'arène
     }
 
     @When("Le sorcier {string} attaque le sorcier {string}")
